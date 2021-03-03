@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The number</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<p class="title">Guess Me Game</p>
+	</nav>
+	<div class="header-img">
+		1.2.3...
+	</div>
+	<div>
+		<div class="input">
+			<p style="text-align: center;">Guess a number between 1 to 100</p>
+			<input class="input form-control ip-field" id="guessField" style="width: 300px;" type="number" name="guessField" placeholder="Enter your guess" required>
+			<!-- Label goes here -->
+			<div id="label">
+			</div>
+			<button class="btn btn-dark buttons" onclick="check()" id="check-btn" name="check-btn">Check ME</button>
+			<button class="btn btn-light buttons" onclick="init()" id="reset-btn" name="reset-btn">Reset</button>
+			<!-- Guess history here -->
+			<div id="history">
+			</div>
+		</div>
+	</div>
+	<script src="assets/js/script.js" type="text/javascript">
+		
+	</script>
+</body>
+</html>

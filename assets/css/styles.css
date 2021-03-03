@@ -1,0 +1,36 @@
+nav {
+	background-color: #a9a9a9;
+}
+
+.title{
+	font-size: 32px;
+	color: white;
+	margin-left: 5px;
+	margin: 5px;
+}
+
+.header-img{
+	font-size: 120px;
+	text-align: center;
+	color: #FFD23F;
+}
+
+.input{
+	text-align: center;
+}
+
+.ip-field{
+	border-color: #a9a9a9;
+	margin: auto;
+}
+
+#history, #label{
+	max-width: 300px;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.buttons{
+	margin: 10px;
+	width: 100px;
+}
